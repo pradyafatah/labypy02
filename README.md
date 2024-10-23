@@ -1,64 +1,61 @@
 # Laporan Praktikum 2
 
-## Algoritma
+## KASUS 1 : PROGRAM PEMESANAN TIKET BIOSKOP
+```phython
+# Program Pemesanan Tiket Bioskop
 
-1. Inisialisasi variabel yang diperlukan.
-2. Minta input dari pengguna.
-3. Proses input sesuai dengan kebutuhan.
-4. Tampilkan hasil kepada pengguna.
+# Harga tiket
+harga_reguler = 50000
+harga_vip = 100000
 
-## Flowchart
+# Input tipe tiket
+tipe_tiket = input("Masukkan tipe tiket (reguler/vip): ").lower()
 
-![Flowchart](![flowchart - Imgur (1)](https://github.com/user-attachments/assets/ea3a97fc-8e7d-4047-8ad4-ef7b1ba1ffcb)
+# Input status member
+status_member = input("Apakah Anda memiliki kartu member? (ya/tidak): ").lower()
 
-## Screenshot Hasil Eksekusi Program
+# Hitung harga tiket
+if tipe_tiket == "reguler":
+    total_harga = harga_reguler
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    print("Tipe tiket tidak valid.")
+    total_harga = 0
 
-![Screenshot](![implementasi - Imgur]( https://github.com/user-attachments/assets/91908a70-b26e-488f-8757-7acd26a4f0f5)
+# Cek status member dan berikan diskon jika berlaku
+diskon = 0.2 if status_member == "ya" else 0
+harga_final = total_harga * (1 - diskon)
 
-## Uraikan Langkah Algoritma
-### Tujuan
-Tujuan dari langkah ini adalah untuk memberikan penjelasan yang jelas dan terstruktur tentang bagaimana program bekerja. Ini membantu pembaca memahami proses dan logika yang diterapkan dalam program.
+# Tampilkan hasil
+if total_harga > 0:
+    print(f"Total harga yang harus dibayar: Rp{harga_final:.2f}")
 
-Isi README.md
-File README.md berfungsi sebagai dokumentasi untuk repository kamu. Berikut adalah beberapa elemen yang sebaiknya ada dalam README.md:
+ 
+```
+# KASUS 2 : KALKULATOR SEDERHANA
+```phython
+# Program Kalkulator Sederhana
 
-### Judul: Nama praktikum atau proyek.
-**1.**:
+# Input dua angka dan satu operator
+angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
+operator = input("Masukkan operator (+, -, *, /): ")
 
-   ```markdown
+# Hitung hasil sesuai operator
+if operator == "+":
+    hasil = angka1 + angka2
+elif operator == "-":
+    hasil = angka1 - angka2
+elif operator == "*":
+    hasil = angka1 * angka2
+elif operator == "/":
+    if angka2 != 0:
+        hasil = angka1 / angka2
+    else:
+        hasil = "Error: Pembagian dengan nol!"
+else:
+    hasil = "Operator tidak valid!"
 
-   # Laporan Praktikum 2
-
-### Deskripsi Singkat: Penjelasan tentang tujuan praktikum.
-
-   ```markdown
-   ## Program ini bertujuan untuk menjumlahkan dua angka yang diinput oleh pengguna
-
-### Algoritma: Langkah-langkah yang diambil dalam program. Sebaiknya ditulis secara terstruktur untuk menjelaskan alur kerja program.
-
-markdown
-
-## Algoritma
-
-1. Inisialisasi variabel yang diperlukan.
-2. Minta input dari pengguna.
-3. Proses input sesuai kebutuhan (misalnya, melakukan penjumlahan).
-4. Tampilkan hasil kepada pengguna.
-Flowchart: Diagram alur untuk menggambarkan proses secara visual. Ini membantu dalam memahami alur logika program.
-
-Dapat dibuat menggunakan alat seperti Draw.io atau Lucidchart dan disertakan di README.md dengan tautan atau gambar.
-markdown
-Salin kode
-## Flowchart
-![Flowchart](link-ke-gambar-flowchart)
-Screenshot Hasil Eksekusi Program: Menampilkan hasil nyata dari program yang telah dijalankan.
-
-Ambil tangkapan layar hasil eksekusi program dan sertakan di README.md.
-markdown
-Salin kode
-## Screenshot Hasil Eksekusi Program
-![Screenshot](link-ke-gambar-screenshot)
-Manfaat
-Kejelasan: Menyediakan penjelasan yang jelas tentang bagaimana program bekerja, memudahkan orang lain (atau diri sendiri di masa depan) untuk memahami dan mengembangkan lebih lanjut.
-Referensi: README.md berfungsi sebagai referensi bagi siapa saja yang ingin mengetahui cara kerja program tanpa harus membaca seluruh kode.
-Visualisasi: Dengan adanya flowchart dan screenshot, pembaca dapat dengan mudah memahami alur kerja program dan melihat hasilnya secara langsung.
+# Tampilkan hasil
+print(f"Hasil: {hasil}")
