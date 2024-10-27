@@ -59,3 +59,16 @@ else:
 
 # Tampilkan hasil
 print(f"Hasil: {hasil}")
+```
+## Flowchart
+* (https://drive.google.com/file/d/1n3snSiSYd6RM_T43Qw9dCDwG993oEtAt/view?usp=drive_link)
+
+## Screenshot Hasil Eksekusi Program
+### Pembelian tiket bioskop
+(![Cuplikan layar 2024-10-27 225517](https://github.com/user-attachments/assets/210cd88d-71e5-4d10-a64d-fee39afbe456)
+#### Hasil
+(![Cuplikan layar 2024-10-27 225456](https://github.com/user-attachments/assets/05432099-8f5f-4ee5-b856-740eec60199a)
+## Kalkulator sederhana
+(![Cuplikan layar 2024-10-27 224525](https://github.com/user-attachments/assets/e05f2de7-8f17-4665-85f7-f6b67b7548e9)
+#### Hasil
+(![image](https://github.com/user-attachments/assets/88f30ee6-7e3f-4e70-a3f7-b575c81e605b)
