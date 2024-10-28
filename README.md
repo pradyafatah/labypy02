@@ -61,6 +61,9 @@ else:
 print(f"Hasil: {hasil}")
 ```
 ## Flowchart
+### Hasil Flowchart dari kalkulator sederhana
+* (https://drive.google.com/file/d/1gfbKNvrkyFCih-75mY8iXWKneiaZAgPM/view?usp=drive_link)
+### Hasil dari flowchart pemesanan tiket bioskop
 * (https://drive.google.com/file/d/1n3snSiSYd6RM_T43Qw9dCDwG993oEtAt/view?usp=drive_link)
 
 ## Screenshot Hasil Eksekusi Program
