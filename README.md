@@ -75,5 +75,27 @@ print(f"Hasil: {hasil}")
 (![Cuplikan layar 2024-10-27 224525](https://github.com/user-attachments/assets/e05f2de7-8f17-4665-85f7-f6b67b7548e9)
 #### Hasil
 (![image](https://github.com/user-attachments/assets/88f30ee6-7e3f-4e70-a3f7-b575c81e605b)
+## Kesimpulan dari Tugas Pemrograman
+Program Pemesanan Tiket Bioskop:
+
+Program ini dirancang untuk menghitung total harga tiket bioskop berdasarkan tipe tiket (reguler atau VIP) dan status keanggotaan pengguna (member atau non-member).
+Dengan menggunakan struktur kontrol if-else, program dapat menentukan harga tiket dan menerapkan diskon jika pengguna adalah member.
+Flowchart yang dibuat memberikan gambaran visual yang jelas tentang alur logika program, memudahkan pemahaman proses yang terjadi.
+Program Kalkulator Sederhana:
+
+Program ini menerima dua angka dan operator aritmatika, kemudian melakukan perhitungan sesuai dengan operator yang dipilih oleh pengguna.
+Struktur if-elif-else digunakan untuk menentukan operasi yang akan dilakukan berdasarkan input pengguna.
+Flowchart berfungsi untuk menjelaskan langkah-langkah dalam proses kalkulasi, dari pengambilan input hingga pengeluaran hasil.
+### Manfaat:
+Visualisasi: Flowchart membantu dalam memahami logika program secara keseluruhan, menjadikan debugging dan pengembangan lebih mudah.
+
+Penguasaan Logika Pemrograman: Tugas ini memperkuat pemahaman mengenai penggunaan struktur kontrol, input/output, serta perhitungan matematis dalam pemrograman.
+
+Penerapan Algoritma: Mengasah keterampilan dalam merancang algoritma yang efisien dan mudah dipahami, serta menerjemahkannya ke dalam kode.
+### Langkah Selanjutnya:
+Melakukan pengujian lebih lanjut untuk memastikan keandalan dan ketahanan program.
+Menerapkan fitur tambahan, seperti pemilihan waktu tayang dan jumlah tiket untuk program pemesanan tiket.
+Menambahkan lebih banyak operator atau fungsi dalam kalkulator sederhana untuk meningkatkan fungsionalitasnya.
+Dengan menyelesaikan tugas ini, pengguna tidak hanya mendapatkan keterampilan teknis dalam pemrograman Python tetapi juga belajar cara merancang dan memahami algoritma serta alur program dengan lebih baik.
 
 (Terimakasih :)
