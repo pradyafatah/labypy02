@@ -117,7 +117,7 @@ print(f"Hasil: {hasil}")
 ```
 ## Flowchart
 ### Hasil Flowchart dari kalkulator sederhana
-* (https://drive.google.com/file/d/1gfbKNvrkyFCih-75mY8iXWKneiaZAgPM/view?usp=drive_link)
+* yang asli cuman ada di pradyafatah(https://drive.google.com/file/d/1gfbKNvrkyFCih-75mY8iXWKneiaZAgPM/view?usp=drive_link)
 ### Hasil dari flowchart pemesanan tiket bioskop
 * (https://drive.google.com/file/d/1n3snSiSYd6RM_T43Qw9dCDwG993oEtAt/view?usp=drive_link)
 
@@ -154,3 +154,4 @@ Menambahkan lebih banyak operator atau fungsi dalam kalkulator sederhana untuk m
 Dengan menyelesaikan tugas ini, pengguna tidak hanya mendapatkan keterampilan teknis dalam pemrograman Python tetapi juga belajar cara merancang dan memahami algoritma serta alur program dengan lebih baik.
 
 (Terimakasih :)
+
