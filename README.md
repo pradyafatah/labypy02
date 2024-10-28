@@ -1,6 +1,31 @@
 # Laporan Praktikum 2
 
 ## KASUS 1 : PROGRAM PEMESANAN TIKET BIOSKOP
+Repository ini berisi program Python sederhana untuk menghitung harga tiket bioskop. Program ini memperhitungkan jenis tiket (Reguler atau VIP) dan memberikan diskon 20% untuk pengguna yang memiliki kartu member.
+
+### Deskripsi Program
+Program pemesanan tiket bioskop ini bertujuan untuk menghitung total harga tiket berdasarkan pilihan pengguna:
+Tiket Reguler seharga Rp50.000
+Tiket VIP seharga Rp100.000
+Pengguna dengan kartu member mendapatkan diskon sebesar 20%.
+Program akan meminta pengguna untuk memasukkan:
+
+Tipe tiket (Reguler atau VIP).
+Status member (Ya atau Tidak).
+Kemudian, program akan menampilkan total harga yang harus dibayar.
+
+### Algoritma
+Berikut langkah-langkah dari algoritma program ini:
+
+Program meminta pengguna untuk memilih tipe tiket: Reguler atau VIP.
+
+Program meminta pengguna untuk mengonfirmasi apakah mereka memiliki kartu member.
+
+Berdasarkan tipe tiket, program menetapkan harga awal.
+
+Jika pengguna memiliki kartu member, program mengurangi harga dengan diskon sebesar 20%.
+
+Program menampilkan total harga yang harus dibayar.
 ```phython
 # Program Pemesanan Tiket Bioskop
 
@@ -34,6 +59,36 @@ if total_harga > 0:
  
 ```
 # KASUS 2 : KALKULATOR SEDERHANA
+Repository ini juga mencakup program Kalkulator Sederhana yang dapat melakukan operasi aritmatika dasar. Program ini memungkinkan pengguna untuk memasukkan dua angka dan memilih jenis operasi (penjumlahan, pengurangan, perkalian, atau pembagian) yang akan diterapkan pada kedua angka tersebut.
+
+Deskripsi Program
+Kalkulator ini mendukung empat operasi aritmatika:
+
+1.Penjumlahan (+)
+
+2.Pengurangan (-)
+
+3.Perkalian (*)
+
+4.Pembagian (/)
+
+Pengguna akan diminta untuk memasukkan dua angka dan operator aritmatika. Program kemudian akan menampilkan hasil dari operasi yang dipilih. Program ini juga menangani pembagian dengan nol dan akan memberikan pesan peringatan jika pembagian tidak bisa dilakukan.
+
+Algoritma
+Berikut langkah-langkah dari algoritma program kalkulator sederhana ini:
+
+Program meminta pengguna untuk memasukkan angka pertama.
+
+Program meminta pengguna untuk memasukkan operator aritmatika yang ingin digunakan (+, -, *, atau /).
+
+Program meminta pengguna untuk memasukkan angka kedua.
+
+Berdasarkan operator yang dimasukkan, program melakukan operasi aritmatika pada kedua angka.
+
+Jika operasi adalah pembagian dan angka kedua adalah nol, program menampilkan pesan bahwa pembagian dengan nol tidak dapat dilakukan.
+
+Program menampilkan hasil dari operasi yang dipilih atau pesan error jika operator tidak valid.
+
 ```phython
 # Program Kalkulator Sederhana
 
