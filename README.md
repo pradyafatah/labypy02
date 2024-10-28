@@ -75,3 +75,5 @@ print(f"Hasil: {hasil}")
 (![Cuplikan layar 2024-10-27 224525](https://github.com/user-attachments/assets/e05f2de7-8f17-4665-85f7-f6b67b7548e9)
 #### Hasil
 (![image](https://github.com/user-attachments/assets/88f30ee6-7e3f-4e70-a3f7-b575c81e605b)
+
+(Terimakasih :)
